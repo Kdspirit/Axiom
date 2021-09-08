@@ -1,0 +1,13 @@
+#axiom-main-wrapper{
+    background: white;
+    width: 90%;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:500px){
+    .Containerss{
+        display: block !important;
+    }
+}

@@ -1,0 +1,19 @@
+.sidebar-container {
+    background: #e9ecef;
+    width: 15vw;
+    height: 100vh;
+}
+.sidebar-items {
+    padding: 2rem 2.5rem;
+    color: slategray;
+}
+
+@media only screen and (max-width:500px){
+    .sidebar-items {
+        padding: 2rem 0.5rem;
+        color: slategray;
+    }
+    .sidebar-container {
+        font-size: small;
+    }
+}

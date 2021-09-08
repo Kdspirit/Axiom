@@ -1,0 +1,76 @@
+.new-shipment {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #e9ecef;
+    width: 74vw;
+    height: 5rem;
+    border-left: 0.01rem solid lightgray;
+}
+.ship-title {
+    font-size: 2rem;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 36vw;
+}
+.new-Printer {
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width:500px){
+    .new-shipment {
+        padding: 0rem;
+    }
+    .ship-title {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .new-ship-btn{
+        font-size: 0.5rem;
+    width: 33vw;
+    }
+    .new-Printer{
+        font-size: 1rem;
+    }
+    .new-pronter-drop{
+        font-size: x-small !important;
+    }
+    .right-section {
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        width: 33vw;
+        margin-right: 5vw;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .new-shipment {
+        padding: 0rem;
+        height: 6rem;
+    }
+    .ship-title {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .new-ship-btn{
+        font-size: 0.5rem;
+    width: 33vw;
+    }
+    .new-Printer{
+        font-size: 1rem;
+    }
+    .new-pronter-drop{
+        font-size: x-small !important;
+    }
+    .right-section {
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        width: 33vw;
+        margin-right: 5vw;
+    }
+}

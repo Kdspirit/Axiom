@@ -1,0 +1,62 @@
+.container3{
+    border: 1px solid black;
+    width: 20vw;
+    box-shadow: -6px 20px 20px #00000029;
+    font-size: small;
+    height: 93vh;
+}
+.container3-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.usps-img{
+    width: 11vw;
+    height: 5vh;
+}
+.flat-rate{
+    color: grey;
+    text-align: start;
+    margin-left: 2vw;
+}
+.sig-req{
+    color: grey;
+    text-align: start;
+    margin-left: 2vw;
+}
+.base-rate{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Total-rate{
+    font-weight: bold;
+    padding-top: 2vh;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+.help-sec{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1rem;
+    background-color:#e9ecef;
+}
+
+@media only screen and (max-width:500px){
+    .container3 {
+        width: 84vw;
+        margin-left: -16vw;
+        height: auto;
+    }
+    .usps-img {
+        width: 31vw;
+        height: 7vh;
+    }
+    .Price{
+        margin-right: 3vw !important;
+    }
+    .Button-last{
+        width:49vw !important;
+    }
+}
